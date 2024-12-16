@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>2fc55b72-4090-46ad-ae44-8b6a415339b8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Datasync" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Datasync.EFCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.31" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.31">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="8.0.83" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.83" />
+    <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.83" />
+  </ItemGroup>
+
+</Project>
